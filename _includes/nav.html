@@ -1,0 +1,21 @@
+
+
+<div id="navbar" class="row">
+	<div class="mr-auto p-2 fly-in">boop</div>
+	<div class="p-2"><a href="#about" class="scroll">about</a></div>
+	<div class="p-2">order online</div>
+	<div class="p-2">menu</div>
+	<div class="p-2">event catering</div>
+</div>
+<div class="nav-bg">
+	<div class="nav-container rounded">
+		<div class="close fly-in">X</div>
+		<ul>
+			{% for nav in site.data.navigation %}
+			<li>
+				<a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
