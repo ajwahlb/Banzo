@@ -1,5 +1,8 @@
 html, body{ height: 100vh; }
-
+.parallax-window{
+    min-height: 50vw;
+    background: transparent;
+}
 .full-height {
     background-position: center center;
     height: 100vh;
@@ -31,7 +34,7 @@ html, body{ height: 100vh; }
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
 }
 h2.title{
     border-top: 3px solid #000;
@@ -86,8 +89,9 @@ h2.title{
     padding: 0;
 }
 
-/* parallax */
-
+.center{
+    text-align: center;
+}
 
 /* nav */
 
@@ -155,8 +159,12 @@ footer.site-footer{
     max-width: 800px;
     margin: 30px auto;
 }
+
 @media(max-width: 575px) and (min-width: 1px){
-    .form-row .col-sm-6:first-child{
+    .form-row .col-sm:first-child{
         padding-bottom: 10px;
+    }
+    h2{
+        font-size: 1.6rem;
     }
 }
