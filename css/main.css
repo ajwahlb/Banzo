@@ -1,4 +1,5 @@
 html, body{ height: 100vh; }
+
 .full-height {
     background-position: center center;
     height: 100vh;
@@ -38,6 +39,7 @@ h2.title{
     padding: 1vw 0;
     margin-bottom: 2vw;
 }
+
 .map-overlay {
     background: transparent;
     position: absolute;
@@ -83,6 +85,9 @@ h2.title{
     margin: 1px 0 0 0;
     padding: 0;
 }
+
+/* parallax */
+
 
 /* nav */
 
@@ -150,4 +155,8 @@ footer.site-footer{
     max-width: 800px;
     margin: 30px auto;
 }
-
+@media(max-width: 575px) and (min-width: 1px){
+    .form-row .col-sm-6:first-child{
+        padding-bottom: 10px;
+    }
+}
