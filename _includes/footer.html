@@ -1,53 +1,57 @@
 <footer class="site-footer pad6vw">
 
   <div class="container">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-2">
-        {% for nav in site.data.navigation %}
-        <li>
-          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
-        </li>
-        {% endfor %}
+    <div class="row">
+      <div class="col-md-4 center">
+        <img src="/images/madison-original.png" style="max-width: 261px;" width="100%" alt="A Madison Original since 2011">
       </div>
-
-      <div class="footer-col footer-col-2">
+      <div class="col-md-8">
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <p class="legal">&copy; 2017 Banzo of Madison. All rights reserved.</p>
-        
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalLong">
-          Privacy Policy
-        </button>
+        <div class="footer-col-wrapper">
+          <div class="footer-col footer-col-2">
+            {% for nav in site.data.navigation %}
+            <li>
+              <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+            </li>
+            {% endfor %}
+          </div>
 
-        <!-- privacy policy modal -->
-        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
+          <div class="footer-col footer-col-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalLong">
+              Privacy Policy
+            </button>
 
-              {% include privacy-policy.html %}
+            <!-- privacy policy modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
 
+                  {% include privacy-policy.html %}
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+            </div>
+
+            <div class="footer-col footer-col-3">
+              <p>{{ site.description | escape }}</p>
             </div>
           </div>
         </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
       </div>
     </div>
-
   </div>
 
   

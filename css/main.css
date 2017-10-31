@@ -153,7 +153,7 @@ h2.title{
 
 /* FOOTER */
 footer.site-footer{
-    background: #fafafa url(/images/madison-original-3.gif) no-repeat center;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .modal-dialog {
     max-width: 800px;
