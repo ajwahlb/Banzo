@@ -1,8 +1,8 @@
 // off screen nav
 
 $('.fly-in').click(function(){
-	console.log("mobile categories clicked!");
 	$('.nav-container').toggleClass('slide');
+	$('.nav-bg').toggleClass('show');
 });
 
 

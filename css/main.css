@@ -20,6 +20,22 @@ html, body{ height: 100vh; }
 .carts-feature{
     background-image:url(/images/foodcart-2.jpg);
 }
+.hp-pages li{
+    list-style: none;
+    display: inline-block;
+    opacity:1;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+.hp-pages:hover li,
+.hp-pages li:nth-child(1):hover + li{
+    opacity:.4;
+}
+.hp-pages li:hover,
+.hp-pages li:hover ~ li{
+    opacity: 1;
+}
 #twitter-feed-bg{
     text-align: center;
     background: #ccff7f url(/images/twitter-background_01.jpg) top center repeat;
@@ -105,7 +121,9 @@ h2.title{
     color:#fff;
     background-color: transparent;
 }
-
+#navbar a{
+    color: inherit;
+}
 #navbar > div:hover{
     cursor: pointer;
 }
@@ -113,12 +131,22 @@ h2.title{
     float: right;
     padding: 5px;
 }
+
+.nav-bg.show {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.85);
+    -webkit-transition: background .4s;
+    transition: background .4s;
+    z-index: 10;
+}
 .nav-container{
     position: fixed;
     right: 0;
     bottom: auto;
     left: 0;
-    top: 40%;
+    top: 30%;
     z-index: 10;
     height: auto;
     -webkit-overflow-scrolling: touch;
@@ -130,9 +158,8 @@ h2.title{
     -moz-transition: transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
     width:100%;
-    max-width: 300px;
+    max-width: 451px;
     margin: auto;
-    background-color: #fff;
     display: table;
 }
 .nav-container.slide {
@@ -153,11 +180,31 @@ h2.title{
 
 /* FOOTER */
 footer.site-footer{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(to top, #585858 0%, #4e6775 100%);
+    color:#fff;
+}
+footer.site-footer ul.social-media-list{
+    padding:0;
+}
+footer.site-footer ul.social-media-list li,
+.banzo-social .fa{
+    display: inline-block;
+    font-size: 2rem;
+    margin-right:15px;
+}
+footer.site-footer ul.social-media-list li a,
+.btn-link{
+    color: #fff;
+}
+footer.site-footer ul.social-media-list li a:hover,
+.btn-link:hover{
+    color: inherit;
+    text-shadow:3px 1px 0px #000;
 }
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
+    color:#000;
 }
 
 @media(max-width: 575px) and (min-width: 1px){

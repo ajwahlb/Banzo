@@ -1,21 +1,21 @@
 
 
 <div id="navbar" class="row">
-	<div class="mr-auto p-2 fly-in">boop</div>
-	<div class="p-2"><a href="#about" class="scroll">about</a></div>
-	<div class="p-2">order online</div>
-	<div class="p-2">menu</div>
-	<div class="p-2">event catering</div>
+	<div class="mr-auto p-2 fly-in">Locations</div>
+	<div class="p-2"><a href="#about" class="scroll">About</a></div>
+	<div class="p-2"><a href="https://www.orderinout.com/banzo/madison-east" target="_blank">Order Online</a></div>
+	<div class="p-2"><a href="#menu" class="scroll">Menu</a></div>
+	<div class="p-2"><a href="#menu" class="scroll">Event Catering</a></div>
 </div>
-<div class="nav-bg">
-	<div class="nav-container rounded">
-		<div class="close fly-in">X</div>
-		<ul>
-			{% for nav in site.data.navigation %}
+<div class="nav-bg fly-in">
+	<div class="nav-container rounded d-flex justify-content-center">
+		<div class="hp-pages">
 			<li>
-				<a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+				<a href="/banzo/"><img src="/images/banzo-01.png" width="100%"></a>
 			</li>
-			{% endfor %}
-		</ul>
+			<li>
+				<a href="/food-carts/"><img src="/images/cart-01.png" width="100%"></a>
+			</li>
+		</div>
 	</div>
 </div>

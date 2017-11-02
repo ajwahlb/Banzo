@@ -6,11 +6,14 @@ permalink: /
 <div class="container-fluid">
 	<div class="row full-height feature d-flex align-items-center">
 		<div class="col d-flex justify-content-center">
-			{% for nav in site.data.navigation %}
-			<li>
-				<a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
-			</li>
-			{% endfor %}
+			<div class="hp-pages">
+				<li>
+					<a href="/banzo/"><img src="/images/banzo-01.png" width="100%" style="max-width: 210px;"></a>
+				</li>
+				<li>
+					<a href="/food-carts/"><img src="/images/cart-01.png" width="100%" style="max-width: 210px;"></a>
+				</li>
+			</div>
 		</div>
 
 		<a class="feature-arrow-down" href="#twitter">

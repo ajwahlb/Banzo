@@ -10,11 +10,31 @@
         <p class="legal">&copy; 2017 Banzo of Madison. All rights reserved.</p>
         <div class="footer-col-wrapper">
           <div class="footer-col footer-col-2">
-            {% for nav in site.data.navigation %}
-            <li>
-              <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
-            </li>
-            {% endfor %}
+            <ul class="social-media-list">
+              {% if site.twitter_username %}
+              <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.facebook_username %}
+              <li>
+                <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.instagram_username %}
+              <li>
+                <a href="https://instagram.com/{{ site.instagram_username }}">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
           </div>
 
           <div class="footer-col footer-col-2">
