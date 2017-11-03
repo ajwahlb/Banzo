@@ -3,6 +3,11 @@ html, body{ height: 100vh; }
     min-height: 50vw;
     background: transparent;
 }
+@media(max-width: 767px) and (min-width: 1px){
+    .parallax-window{
+        min-height: 65vh;
+    }
+}
 .full-height {
     background-position: center center;
     height: 100vh;
@@ -11,18 +16,31 @@ html, body{ height: 100vh; }
     overflow: hidden;
     display: block;
 }
-.feature{
-    background-image:url(/images/big-banzo-3.jpg);
+@media(min-width: 768px){
+    .feature{
+        background-image:url(/images/big-banzo-3.jpg);
+    }
+    .banzo-feature{
+        background-image:url(/images/banzo-1.jpg);
+    }
+    .carts-feature{
+        background-image:url(/images/foodcart-2.jpg);
+    }
 }
-.banzo-feature{
-    background-image:url(/images/banzo-1.jpg);
-}
-.carts-feature{
-    background-image:url(/images/foodcart-2.jpg);
+@media(max-width: 767px) and (min-width: 1px){
+    .feature{
+        background-image:url(/images/big-banzo-3-m.jpg);
+    }
+    .banzo-feature{
+        background-image:url(/images/banzo-1-m.jpg);
+    }
+    .carts-feature{
+        background-image:url(/images/foodcart-2-m.jpg);
+    }
 }
 .hp-pages li{
     list-style: none;
-    display: inline-block;
+    display: table-cell;
     opacity:1;
     -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
@@ -83,6 +101,15 @@ h2.title{
     margin: auto;
     font-size: 1.5rem;
     padding: 7vw 0;
+}
+@media (max-width: 768px) and (min-width: 1px){
+    .article{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        font-size: 1.2rem;
+        padding: 7vw 10px;
+    }
 }
 .no-pad{
     padding:0;
@@ -177,7 +204,16 @@ h2.title{
     color:#000 !important;
     border-bottom:1px solid #ccc;
 }
-
+.text{
+    padding: 15px 3vw;
+}
+.collapse{
+    display: none;
+    padding:0;
+}
+.open{
+    padding:6vw;
+}
 /* FOOTER */
 footer.site-footer{
     background-image: linear-gradient(to top, #585858 0%, #4e6775 100%);
@@ -206,6 +242,11 @@ footer.site-footer ul.social-media-list li a:hover,
     margin: 30px auto;
     color:#000;
 }
+@media(max-width: 767px) and (min-width: 1px){
+    footer.site-footer{
+        text-align: center;
+    }
+}
 
 @media(max-width: 575px) and (min-width: 1px){
     .form-row .col-sm:first-child{
@@ -213,5 +254,14 @@ footer.site-footer ul.social-media-list li a:hover,
     }
     h2{
         font-size: 1.6rem;
+    }
+    .mr-auto{
+        width: 100%;
+    }
+    .p-2{
+        padding: .2rem .5rem!important;
+    }
+    #navbar{
+        font-size: .85rem;
     }
 }

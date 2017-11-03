@@ -16,13 +16,13 @@ permalink: /
 			</div>
 		</div>
 
-		<a class="feature-arrow-down" href="#twitter">
+		<a class="feature-arrow-down scroll" href="#twitter">
 			<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
 		</a>
 	</div>
 
-	<div class="row">
-		<div id="twitter-feed-bg" class="col-sm-8 block">
+	<div id="twitter" class="row">
+		<div id="twitter-feed-bg" class="col-md-8 block">
 			<h1 style="padding:15px;">WHAT'S THE BUZZ</h1>
 			<div id="twitter-feed">
 				<a class="twitter-timeline" href="https://twitter.com/BanzoMadison"  data-widget-id="439193312549797888">Tweets by @BanzoMadison</a><br />
@@ -31,8 +31,50 @@ permalink: /
 				</script>
 			</div>
 		</div>
-		<div class="col block">
-			<h2>text</h2>
+		<div class="col block d-flex align-items-center">
+			<div class="text text-center">
+				<h2 class="title">Voted Madison's favorite Mediterranean / MiddleEastern restaurant<br><br>
+
+				<a href="https://www.orderinout.com/banzo/madison-east" target="_blank">
+					<button type="button" class="btn btn-dark">ORDER ONLINE</button>
+				</a></h2>
+				<h2 class="title">For Event Catering:<br><br>
+				<a href="#menu" class="scroll hp-cater">
+					<button type="button" class="btn btn-dark">Click Here!</button>
+				</a></h2>
+			</div>
+		</div>
+	</div>
+
+	<div id="menu" class="row justify-content-center collapse">
+		<div class="col-md-8">
+			<h2 class="title">Event Catering <a href="#"><button type="button" class="btn btn-dark">CATERING MENU.PDF</button></a></h2>
+			
+			<p>Tell us about your event! We'll take care of the rest.</p>
+
+			<form role="form" action="http://formspree.io/catering.banzo@gmail.com" method="POST">
+				<input type="hidden" name="recipient" value="catering.banzo#gmail.com">
+				<div class="form-row">
+    				<div class="col-sm">
+						<input type="name" class="form-control" id="inputDate" placeholder="Event Date">
+					</div>
+					<div class="col-sm">
+						<input type="name" class="form-control" id="inputTime" placeholder="Event time">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col-sm">
+						<input type="name" class="form-control" id="inputGuests" placeholder="Number of guests">
+					</div>
+					<div class="col-sm">
+						<input type="email" class="form-control" id="inputEmail" placeholder="Your email">
+					</div>
+				</div>
+  				<div class="form-row">
+					<textarea type="text" class="form-control" id="contact-message" rows="5" placeholder="Additional information"></textarea>
+  				</div>
+  				<button type="submit" value="send" name="submit" class="btn btn-primary">Submit</button>
+			</form>
 		</div>
 	</div>
 </div>
