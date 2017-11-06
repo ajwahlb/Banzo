@@ -38,10 +38,10 @@ permalink: /
 				<a href="https://www.orderinout.com/banzo/madison-east" target="_blank">
 					<button type="button" class="btn btn-dark">ORDER ONLINE</button>
 				</a></h2>
-				<h2 class="title">For Event Catering:<br><br>
+				<!-- <h2 class="title">For Event Catering:<br><br>
 				<a href="#menu" class="scroll hp-cater">
 					<button type="button" class="btn btn-dark">Click Here!</button>
-				</a></h2>
+				</a></h2> -->
 			</div>
 		</div>
 	</div>
@@ -50,7 +50,7 @@ permalink: /
 		<div class="col-md-8">
 			<h2 class="title">Event Catering <a href="#"><button type="button" class="btn btn-dark">CATERING MENU.PDF</button></a></h2>
 			
-			<p>Tell us about your event! We'll take care of the rest.</p>
+			<p>Tell us about your event! We'll take care of the rest. *no requesst are confirmed until approval is received from our catering team*</p>
 
 			<form role="form" action="http://formspree.io/catering.banzo@gmail.com" method="POST">
 				<input type="hidden" name="recipient" value="catering.banzo#gmail.com">
