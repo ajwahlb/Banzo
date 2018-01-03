@@ -57,7 +57,7 @@ html, body{ height: 100vh; }
 #twitter-feed-bg{
     text-align: center;
     background: #ccff7f url(/images/twitter-background_01.jpg) top center repeat;
-    padding: 0 0 2vw;
+    padding: 0 6vw 4vw;
 }
 .feature::before,
 .banzo-feature::before,
