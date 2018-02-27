@@ -85,39 +85,44 @@ permalink: /food-carts/
 			<h2 class="title">Catering <a href="/pdf/catering.pdf" target="_blank"><button type="button" class="btn btn-dark">CATERING MENU.PDF</button></a></h2>
 
 			<p>Tell us about your event! We'll take care of the rest.</p>
-			<p>*No requests are confirmed until approval is received from our catering team. Please allow up to 2 business days for a response from our catering team. DO NOT submit duplicate requests via email or phone. If your event requires immediate confirmation, please skip this form and call (608)441-2002. Thank you!</p>
+			<p>*No requests are confirmed until approval is received from our catering team. Please allow up to 2 business days for a response from our catering team. DO NOT submit duplicate requests via email or phone. If your event requires immediate confirmation, please skip this form and call (608) 441-2002. Thank you!</p>
 
-			<form role="form" action="https://formspree.io/catering.banzo@gmail.com" method="POST">
-				<input type="hidden" name="recipient" value="catering.banzo#gmail.com">
-				<div class="form-group row">
-    				<div class="col-sm">
-						<input type="text" name="name" class="form-control" id="inputName" placeholder="Your Name">
-					</div>
-					<div class="col-sm">
-						<input type="tel" name="phone-number" class="form-control" id="inputPhone" placeholder="Phone Number">
-					</div>
+			<div class="row">
+				<div class="col-md-8">
+					<form role="form" action="https://formspree.io/catering.banzo@gmail.com" method="POST">
+						<input type="hidden" name="recipient" value="catering.banzo#gmail.com">
+						<div class="form-group">
+							<label for="inputName">Your Name</label>
+							<input type="text" name="name" class="form-control" id="inputName">
+						</div>
+						<div class="form-group">
+							<label for="inputPhone">Phone Number</label>
+							<input type="tel" name="phone-number" class="form-control" id="inputPhone">
+						</div>
+						<div class="form-group">
+							<label for="inputDate">Event Date</label>
+		    			<input type="text" name="date" class="form-control" id="inputDate">
+						</div>
+						<div class="form-group">
+							<label for="inputTime">Event time</label>
+							<input type="text" name="time" class="form-control" id="inputTime">
+						</div>
+						<div class="form-group">
+							<label for="inputGuests">Number of guests</label>
+							<input type="text" name="guest-number" class="form-control" id="inputGuests">
+						</div>
+						<div class="form-group">
+							<label for="inputEmail">Your email</label>
+							<input type="email" name="email" class="form-control" id="inputEmail">
+						</div>
+						<div class="form-group">
+							<label for="contact-message">Additional information</label>
+							<textarea type="text" name="aditional-info" class="form-control" id="contact-message" rows="5"></textarea>
+						</div>
+						<button type="submit" value="send" name="submit" class="btn btn-primary">Submit</button>
+					</form>
 				</div>
-				<div class="form-group row">
-    				<div class="col-sm">
-						<input type="text" name="date" class="form-control" id="inputDate" placeholder="Event Date">
-					</div>
-					<div class="col-sm">
-						<input type="text" name="time" class="form-control" id="inputTime" placeholder="Event time">
-					</div>
-				</div>
-				<div class="form-group row">
-					<div class="col-sm">
-						<input type="text" name="guest-number" class="form-control" id="inputGuests" placeholder="Number of guests">
-					</div>
-					<div class="col-sm">
-						<input type="email" name="email" class="form-control" id="inputEmail" placeholder="Your email">
-					</div>
-				</div>
-  				<div class="form-group row">
-					<textarea type="text" name="aditional-info" class="form-control" id="contact-message" rows="5" placeholder="Additional information"></textarea>
-  				</div>
-  				<button type="submit" value="send" name="submit" class="btn btn-primary">Submit</button>
-			</form>
+			</div>
 		</div>
 	</div>
 

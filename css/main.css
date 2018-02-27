@@ -111,6 +111,9 @@ h2.title{
         padding: 7vw 10px;
     }
 }
+label {
+    margin-bottom: .2rem;
+}
 .no-pad{
     padding:0;
 }
