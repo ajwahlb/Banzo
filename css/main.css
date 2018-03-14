@@ -217,6 +217,41 @@ label {
 .open{
     padding:6vw;
 }
+
+/* menu styles */
+#menu .card-body{
+  background-color: #252424;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.menu-section{ z-index:10; position:relative;}
+.menu-section-inner{
+	max-width:1120px;
+	margin:80px auto;
+	background-color:#fff;
+	position:relative;
+}
+.menu-headline{
+	background-color:#ccff7f;
+	padding:8px 15px 5px;
+	font-size:22px;
+	text-transform:uppercase;
+	display:inline-block;
+	color:#000;
+}
+.menu-ooo{font-size: 12px;}
+.menu-title{font-size:18px; font-weight: bold; margin-bottom: 8px;}
+.menu-item{ line-height:.8; margin:20px 0; border-left: 1px solid #fff; padding-left: 10px;}
+.menu-descript{ font-size:16px; line-height:1;}
+
+
+.muted{ color:#ccc !important;}
+ul.cater-list{ padding-left:16px;}
+ul.cater-list li{ list-style:none;}
+.delivery-section{ position:relative; background-color:rgba(203, 62, 67, 0.55); padding-bottom:35px; z-index:10;}
+.btn-group-vertical ul li.delivery a{ padding: 6px 25px !important; border-left:3px solid #000 !important;}
+
+
 /* FOOTER */
 footer.site-footer{
     background-image: linear-gradient(to top, #585858 0%, #4e6775 100%);
@@ -238,7 +273,7 @@ footer.site-footer ul.social-media-list li a,
 footer.site-footer ul.social-media-list li a:hover,
 .btn-link:hover{
     color: inherit;
-    text-shadow:3px 1px 0px #000;
+    text-shadow:-3px 2px 0px #000;
 }
 .modal-dialog {
     max-width: 800px;
