@@ -245,7 +245,7 @@ label {
 .menu-ooo{font-size: 12px;}
 .menu-title{font-size:18px; font-weight: bold; margin-bottom: 8px;color: #ffcc00;}
 .menu-item{ line-height:.8; margin:20px 0; border-left: 1px solid #fff; padding-left: 10px;}
-.menu-descript{ font-size:16px; line-height:1;}
+.menu-descript{ font-size:16px; line-height:1.2;}
 
 
 .muted{ color:#ccc !important;}
