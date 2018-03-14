@@ -219,6 +219,9 @@ label {
 }
 
 /* menu styles */
+.collapse.show{
+  width: 100%;
+}
 #menu .card-body{
   background-color: #252424;
   color: #fff;
