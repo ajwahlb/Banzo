@@ -1,0 +1,78 @@
+/* nav */
+
+#navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    z-index: 5;
+    color:#fff;
+    background-color: transparent;
+}
+#navbar a{
+    color: inherit;
+}
+#navbar > div:hover{
+    cursor: pointer;
+}
+.close{
+    float: right;
+    padding: 5px;
+}
+
+.nav-bg.show {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.85);
+    -webkit-transition: background .4s;
+    transition: background .4s;
+    z-index: 10;
+}
+.nav-container{
+    position: fixed;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    top: 30%;
+    z-index: 10;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateX(-600%);
+    -moz-transform: translateX(-600%);
+    -ms-transform: translateX(-600%);
+    transform: translateX(-600%);
+    -webkit-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    width:100%;
+    max-width: 451px;
+    margin: auto;
+    display: table;
+}
+.nav-container.slide {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+.navbar-fixed {
+    background-color: #fff!important;
+    position: fixed !important;
+    color:#000 !important;
+    border-bottom:1px solid #ccc;
+}
+.text{
+    padding: 15px 3vw;
+}
+.collapse{
+    display: none;
+    padding:0;
+}
+.open{
+    padding:6vw;
+}
