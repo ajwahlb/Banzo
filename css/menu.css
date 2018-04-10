@@ -27,6 +27,9 @@
 .menu-item{ line-height:.8; margin:20px 0; border-left: 1px solid #fff; padding-left: 10px;}
 .menu-descript{ font-size:16px; line-height:1.2;}
 
+.menu-ooo vegan{
+  line-height: 1.5;
+}
 vegan {
   background-color: white;
   height: 18px;
@@ -35,4 +38,6 @@ vegan {
   display: inline-block;
   border-radius: 50%;
   color: black;
+  font-weight: normal;
+  line-height: 1;
 }
