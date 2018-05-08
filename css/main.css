@@ -80,6 +80,9 @@ h2.title{
     padding: 1vw 0;
     margin-bottom: 2vw;
 }
+h2.title.menu{
+  margin-bottom: 0;
+}
 
 .map-overlay {
     background: transparent;
