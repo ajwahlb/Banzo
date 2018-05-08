@@ -1,11 +1,13 @@
 /* menu styles */
-.collapse.show{
-  width: 100%;
-}
-#menu .card-body{
+
+#banzo-menu{
   background-color: #252424;
   color: #fff;
+  padding: 30px;
   margin-bottom: 20px;
+}
+#banzo-menu .row{
+  padding-bottom: 20px;
 }
 .menu-section{ z-index:10; position:relative;}
 .menu-section-inner{
