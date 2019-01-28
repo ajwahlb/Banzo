@@ -1,6 +1,6 @@
 
-<!-- layout: homepage
-permalink: /hpv2/ -->
+layout: homepage
+permalink: /hpv2/
 
 <nav class="navbar navbar-expand-lg navbar-hp">
 	<div class="navbar-collapse" id="navbarText">
@@ -32,7 +32,7 @@ permalink: /hpv2/ -->
 		</a>
 	</div>
 
-	<div id="twitter" class="row">
+	<!-- <div id="twitter" class="row">
 		<div id="twitter-feed-bg" class="col-md-8 block">
 			<h1 style="padding:15px;">WHAT'S THE BUZZ</h1>
 			<div id="twitter-feed">
@@ -52,9 +52,9 @@ permalink: /hpv2/ -->
 				</a></h2>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div id="menu" class="row justify-content-center collapse">
+	<!-- <div id="menu" class="row justify-content-center collapse">
 		<div class="col-md-8">
 			<h2 class="title">Event Catering <a href="/pdf/catering.pdf" target="_blank"><button type="button" class="btn btn-dark">CATERING MENU.PDF</button></a></h2>
 			<p>Tell us about your event! We'll take care of the rest.</p>
@@ -97,5 +97,80 @@ permalink: /hpv2/ -->
 				</div>
 			</div>
 		</div>
+	</div> -->
+
+	<div id="about" class="row">
+		<div class="col">
+			<div class="article">
+				<p>Hearty, clean, fresh. Our made-from-scratch menu is based on traditional Mediterranean recipes, with our own signature Banzo touch. Our focus is on high quality ingredients, which often come from local sources. Stop in for take-out, call us for delivery, or join us on our beautiful patio for lunch or dinner and a glass of craft beer or house-made sangria.</p>
+			</div>
+		</div>
 	</div>
+
+	<div class="row">
+		<div class="col no-pad parallax-window d-sm-none d-md-block" data-parallax="scroll" data-image-src="/images/banzo-1.jpg"></div>
+		<div class="col no-pad parallax-window d-none d-sm-block d-md-none" data-parallax="scroll" data-image-src="/images/banzo-1-m.jpg"></div>
+	</div>
+
+	<div id="map" class="row">
+		<div class="col no-pad">
+			<div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+			<style>
+			.map-overlay {
+			   background:transparent;
+			   position:absolute;
+			   width:100%;
+			   height:0; /* your iframe height */
+			   padding-bottom: 44.25%;
+			   z-index: 10;
+			}
+
+			.embed-container { position: relative; padding-bottom: 44.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute;border:none; top: 0; left: 0; width: 100%; height: 100%; }
+			@media (max-width: 767px) and (min-width:1px){
+				.embed-container { padding-bottom: 115%;}
+				.map-overlay { padding-bottom: 115%;}
+			}
+			</style>
+			<div class='embed-container'><iframe src="https://www.google.com/maps/d/embed?mid=1pgxOJlWKa02YGRAdfpftCxm_uj8" width="640" height="480"></iframe></div>
+		</div>
+	</div>
+
+	<div id="contact" class="row pad6vw">
+		<div class="col-md pad02vw">
+			<h2 class="title">Order Online</h2>
+			<p>Don't get up.<br>Make an order while sitting right where you are.</p>
+			<a href="https://www.toasttab.com/banzo-sherman-ave/v2/online-order#!/" target="_blank">
+				<button type="button" class="btn btn-dark">ORDER ONLINE</button>
+			</a>
+		</div>
+		<div class="col-md pad02vw">
+			<h2 class="title">Opening Times</h2>
+			<p>Monday: 11:00a &ndash; 9:00p<br>
+				Tuesday: 11:00a &ndash; 9:00p<br>
+				Wednesday: 11:00a &ndash; 9:00p<br>
+				Thursday: 11:00a &ndash; 9:00p<br>
+				Friday: 11:00a &ndash; 9:00p<br>
+				Saturday: 11:00a &ndash; 9:00p<br>
+				Sunday: 11:00a &ndash; 9:00p
+			</p>
+		</div>
+		<div class="col-md pad02vw banzo-social">
+			<h2 class="title">Contact</h2>
+			<p>2105 Sherman Ave<br>Madison, WI 53704</p>
+			<a href="#map" class="scroll">
+				View map
+			</a>
+			<p>(608) 441-2002</p>
+			<a href="https://www.facebook.com/banzomadison/" target="_blank">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+			</a>
+			<a href="https://twitter.com/banzomadison/" target="_blank">
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com/banzomadison/" target="_blank">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+
 </div>
