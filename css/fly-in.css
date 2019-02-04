@@ -2,10 +2,17 @@
   width: 300px;
   position: fixed;
   z-index: 10;
-  left: -310px;
+  background-color: #ffd600;
 }
 #fly-in-menu .open{
   left: 0;
+}
+#fly-in-menu .close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
 }
 #fly-in-menu ul{
   list-style: none;
