@@ -2,6 +2,8 @@
   width: 300px;
   position: fixed;
   z-index: 10;
+  height: 100%;
+  left: -305px;
   background-color: #ffd600;
 }
 #fly-in-menu .open{
@@ -18,5 +20,5 @@
   list-style: none;
 }
 #fly-in-menu ul li{
-  color: #fff;
+  color: ##333;
 }
