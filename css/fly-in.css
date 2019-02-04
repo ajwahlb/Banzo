@@ -1,0 +1,15 @@
+#fly-in-menu{
+  width: 300px;
+  position: fixed;
+  z-index: 10;
+  left: -310px;
+}
+#fly-in-menu .open{
+  left: 0;
+}
+#fly-in-menu ul{
+  list-style: none;
+}
+#fly-in-menu ul li{
+  color: #fff;
+}

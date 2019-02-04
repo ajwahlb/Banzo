@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "menu.css";
 @import "footer.css";
+@import "fly-in.css";
 
 html, body{ height: 100vh; }
 .parallax-window{

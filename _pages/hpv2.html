@@ -7,10 +7,7 @@ permalink: /hpv2/
 	<div class="navbar-collapse" id="navbarText">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="/banzo/">Restaurant</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/food-carts/">Food Carts</a>
+				<a class="nav-link slideMenu"><i class="fas fa-bars"></i> Menu</a>
 			</li>
 		</ul>
 		<span class="navbar-text">
@@ -18,6 +15,26 @@ permalink: /hpv2/
 		</span>
 	</div>
 </nav>
+
+<div id="fly-in-menu" class="d-flex">
+	<ul class="align-self-center">
+		<li>Order Online</li>
+		<li>About Us</li>
+		<li>Delivery Map</li>
+		<li>Restaurant Menu</li>
+		<li>Catering Menu</li>
+		<li>Contact Us</li>
+	</ul>
+</div>
+
+<script>
+$(function(){
+    $('.slideMenu').on('click', function(){
+        $('#fly-in-menu').toggleClass("open");
+    });
+});
+</script>
+
 <div class="container-fluid">
 	<div class="row full-height feature d-flex align-items-center">
 		<div class="col d-flex justify-content-center">
