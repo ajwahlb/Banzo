@@ -6,10 +6,10 @@
   left: -305px;
   background-color: #ffd600;
 }
-#fly-in-menu .open{
+#fly-in-menu.open{
   left: 0;
 }
-#fly-in-menu .close{
+#fly-in-menu .slideOut{
   position: absolute;
   top: 0;
   right: 0;
