@@ -9,14 +9,23 @@ $('.hp-cater').click(function(){
 	$('.collapse').slideToggle().toggleClass('open d-flex');
 });
 
-var topofDiv = $(".full-height").offset().top; //gets offset of header
-var height = $(".full-height").outerHeight(); //gets height of header
+// var topofDiv = $(".full-height").offset().top; //gets offset of header
+// var height = $(".full-height").outerHeight(); //gets height of header
+//
+// $(window).scroll(function(){
+//     if($(window).scrollTop() > (topofDiv + height - 100)){
+//        $("#navbar").addClass('navbar-fixed');
+//     }
+//     else{
+//        $("#navbar").removeClass('navbar-fixed');
+//     }
+// });
+$( 'a[href^="#"]' ).on( 'click', function( event ) {
+  event.preventDefault();
 
-$(window).scroll(function(){
-    if($(window).scrollTop() > (topofDiv + height - 100)){
-       $("#navbar").addClass('navbar-fixed');
-    }
-    else{
-       $("#navbar").removeClass('navbar-fixed');
-    }
-});
+  var target = $( this ).attr( 'href' );
+
+  $( '[canvas="container"]' ).animate( {
+    scrollTop: target.offset().top;
+  }, 1000 );
+} );
