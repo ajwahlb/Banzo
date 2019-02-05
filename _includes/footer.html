@@ -79,6 +79,15 @@
       // Toggle the Slidebar with id 'slidebar-1'
       controller.toggle( 'slidebar-1' );
     } );
+	 // Toggle Slidebars
+    $( '.toggle-instagram' ).on( 'click', function ( event ) {
+      // Stop default action and bubbling
+      event.stopPropagation();
+      event.preventDefault();
+
+      // Toggle the Slidebar with id 'instagram'
+      controller.toggle( 'instagram' );
+    } );
  } ) ( jQuery );
 </script>
 </footer>
