@@ -44,6 +44,12 @@ html, body{ height: 100vh; }
         background-image:url(/images/foodcart-2-m.jpg);
     }
 }
+.row.oops-lax-1{
+  background-image: url(/images/banzo-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
 .hp-pages li{
     list-style: none;
     display: table-cell;
