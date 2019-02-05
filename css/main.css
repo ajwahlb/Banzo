@@ -50,6 +50,24 @@ html, body{ height: 100vh; }
   background-attachment: fixed;
   height: 40vh;
 }
+.row.oops-lax-2{
+  background-image: url(/images/banzo-4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
+.row.oops-lax-3{
+  background-image: url(/images/foodcart-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
+.row.oops-lax-4{
+  background-image: url(/images/foodcart-4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
 .hp-pages li{
     list-style: none;
     display: table-cell;

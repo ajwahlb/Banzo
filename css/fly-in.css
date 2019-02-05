@@ -16,9 +16,6 @@
   padding: 10px 10px 10px 40px;
 }
 #fly-in-menu .slideOut{
-  position: absolute;
-  top: 0;
-  right: 0;
   padding: 10px;
   font-size: 3rem;
   cursor: pointer;
