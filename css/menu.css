@@ -1,5 +1,7 @@
 /* menu styles */
-
+.white{
+  background-color: #fff;
+}
 #banzo-menu{
   background-color: #252424;
   color: #fff;
