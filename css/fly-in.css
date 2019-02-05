@@ -6,11 +6,14 @@
   background-color: #333;
   color: #ffd600;
 }
-#fly-in-menu a{
-  
+#fly-in-menu .left-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 #fly-in-menu .contact{
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
 }
 #fly-in-menu .slideOut{
   position: absolute;
@@ -29,7 +32,11 @@
   font-size: 3rem;
   cursor: pointer;
 }
-#fly-in-menu ul,
+#fly-in-menu ul{
+  list-style: none;
+  margin:0;
+}
+
 #insta-menu ul{
   list-style: none;
   display: flex;
