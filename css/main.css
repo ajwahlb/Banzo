@@ -72,7 +72,10 @@ html, body{ height: 100vh; }
   padding: 50px;
   background: url(/images/twitter-background_01.jpg) repeat top center;
 }
-
+.fab {
+  margin: 0 10px;
+  font-size: 25px;
+}
 .hp-pages li{
     list-style: none;
     display: table-cell;
