@@ -16,7 +16,7 @@ permalink: /hpv2/
 	</div>
 </nav>
 
-<div id="fly-in-menu" off-canvas="slidebar-1 left reveal">
+<div off-canvas="slidebar-1 left reveal">
 	<div class="slideOut js-close-left-slidebar">Close</div>
 	<ul class="align-self-center">
 		<li>Order Online</li>
@@ -27,7 +27,22 @@ permalink: /hpv2/
 		<li>Contact Us</li>
 	</ul>
 </div>
+<script>
+ ( function ( $ ) {
+	 // Initialize Slidebars
+	 var controller = new slidebars();
+	 controller.init();
+	 // Toggle Slidebars
+    $( '.toggle-slidebar-1' ).on( 'click', function ( event ) {
+      // Stop default action and bubbling
+      event.stopPropagation();
+      event.preventDefault();
 
+      // Toggle the Slidebar with id 'slidebar-1'
+      controller.toggle( 'slidebar-1' );
+    } );
+ } ) ( jQuery );
+</script>
 <div canvas="container" class="container-fluid">
 	<div class="row full-height feature d-flex align-items-center">
 		<div class="col d-flex justify-content-center">

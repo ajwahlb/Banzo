@@ -14,3 +14,11 @@
 #fly-in-menu ul li{
   color: ##333;
 }
+[canvas=container],
+[off-canvas] {
+    padding: 10px 20px;
+}
+
+[class*=js-] {
+    cursor: pointer;
+}
