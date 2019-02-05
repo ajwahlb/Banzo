@@ -121,7 +121,7 @@ h2.title.menu{
     }
 }
 #menu{
-  background-image: url(/images/banzo-2.jpg);
+  /* background-image: url(/images/banzo-2.jpg); */
   background-size: cover;
   background-attachment: fixed;
 }
