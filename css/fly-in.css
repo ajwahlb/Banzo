@@ -1,10 +1,12 @@
 [class*=js-] {
     cursor: pointer;
 }
-#fly-in-menu{
+#fly-in-menu,
+#insta-menu{
   background-color: #ffd600;
 }
-#fly-in-menu .slideOut{
+#fly-in-menu .slideOut,
+#insta-menu .slideOut{
   position: absolute;
   top: 0;
   right: 0;
@@ -12,7 +14,8 @@
   font-size: 3rem;
   cursor: pointer;
 }
-#fly-in-menu ul{
+#fly-in-menu ul,
+#insta-menu ul{
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -20,6 +23,7 @@
   height: 100%;
   margin:0;
 }
-#fly-in-menu ul li{
+#fly-in-menu ul li,
+#insta-menu ul li{
   color: #333;
 }
