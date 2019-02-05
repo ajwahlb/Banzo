@@ -78,7 +78,7 @@
 }
 
 /* new hp nav */
-nav.navbar-hp {
+nav.navbar-hp.hpv2 {
     background-color: #fff;
     position: fixed;
     color: #333;
@@ -89,8 +89,4 @@ nav.navbar-hp {
 }
 .navbar-hp .navbar-collapse{
   display: flex;
-}
-.navbar-hp a {
-    color: #fff;
-    text-decoration: underline;
 }
