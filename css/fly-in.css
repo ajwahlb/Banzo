@@ -13,7 +13,11 @@
 }
 #fly-in-menu ul{
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 #fly-in-menu ul li{
-  color: ##333;
+  color: #333;
 }
