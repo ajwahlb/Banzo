@@ -86,5 +86,20 @@
 <script src="/js/parallax.min.js"></script>
 <script src="/js/slidebars.min.js"></script>
 <script src="/js/my.js"></script>
+<script>
+ ( function ( $ ) {
+	 // Initialize Slidebars
+	 var controller = new slidebars();
+	 controller.init();
+	 // Toggle Slidebars
+    $( '.toggle-slidebar-1' ).on( 'click', function ( event ) {
+      // Stop default action and bubbling
+      event.stopPropagation();
+      event.preventDefault();
 
+      // Toggle the Slidebar with id 'slidebar-1'
+      controller.toggle( 'slidebar-1' );
+    } );
+ } ) ( jQuery );
+</script>
 </footer>
