@@ -13,24 +13,10 @@
 	</div>
 
 	<!-- Left slide in menu -->
-	<div id="fly-in-menu" off-canvas="slidebar-1 left shift">
-		<div class="slideOut js-close-left-slidebar"><i class="far fa-times-circle"></i></div>
-		<ul class="align-self-center">
-			<li>Order Online</li>
-			<li>About Us</li>
-			<li>Delivery Map</li>
-			<li><a href="#menu">Restaurant Menu</a></li>
-			<li>Catering Menu</li>
-			<li>Contact Us</li>
-		</ul>
-	</div>
+	{% include slide-in-nav.html %}
+
 	<!-- Right instagram feed -->
-	<div id="insta-menu" off-canvas="slidebar-2 right shift">
-		<div class="slideOut js-close-right-slidebar"><i class="far fa-times-circle"></i></div>
-		<ul class="align-self-center">
-			<li>Instagram Feed</li>
-		</ul>
-	</div>
+	{% include insta-feed.html %}
 
 	<!-- privacy policy modal -->
 	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">

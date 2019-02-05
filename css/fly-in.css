@@ -3,7 +3,11 @@
 }
 #fly-in-menu,
 #insta-menu{
-  background-color: #ffd600;
+  background-color: #333;
+  color: #ffd600;
+}
+#fly-in-menu .contact{
+  padding: 10px;
 }
 #fly-in-menu .slideOut{
   position: absolute;

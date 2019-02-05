@@ -60,10 +60,8 @@ html, body{ height: 100vh; }
 .hp-pages li:hover ~ li{
     opacity: 1;
 }
-#twitter-feed-bg{
-    text-align: center;
-    background: #ccff7f url(/images/twitter-background_01.jpg) top center repeat;
-    padding: 0 6vw 4vw;
+.blurp{
+    background: #ccff7f url(/images/twitter-background_01.jpg) repeat-x top center/cover;
 }
 .feature::before,
 .banzo-feature::before,
