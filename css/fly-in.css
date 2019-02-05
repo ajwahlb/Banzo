@@ -6,6 +6,9 @@
   background-color: #333;
   color: #ffd600;
 }
+#fly-in-menu a{
+  
+}
 #fly-in-menu .contact{
   padding: 10px;
 }
@@ -34,8 +37,4 @@
   justify-content: center;
   height: 100%;
   margin:0;
-}
-#fly-in-menu ul li,
-#insta-menu ul li{
-  color: #333;
 }

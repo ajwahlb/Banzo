@@ -156,6 +156,9 @@ label {
     .mr-auto{
         width: 100%;
     }
+    nav.hpv2 .mr-auto{
+        width: auto;
+    }
     .p-2{
         padding: .2rem .5rem!important;
     }
