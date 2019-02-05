@@ -1,0 +1,29 @@
+<html>
+
+	{% include head.html %}
+
+	<body>
+
+	<div canvas="container" class="page-content">
+		{% include fixedNav.html %}
+		<div class="wrap">
+			{{ content }}
+		</div>
+		{% include footer.html %}
+	</div>
+
+	<!-- slide in menu -->
+	<div id="fly-in-menu" off-canvas="slidebar-1 left reveal">
+		<div class="slideOut js-close-left-slidebar">Close</div>
+		<ul class="align-self-center">
+			<li>Order Online</li>
+			<li>About Us</li>
+			<li>Delivery Map</li>
+			<li>Restaurant Menu</li>
+			<li>Catering Menu</li>
+			<li>Contact Us</li>
+		</ul>
+	</div>
+
+	</body>
+</html>

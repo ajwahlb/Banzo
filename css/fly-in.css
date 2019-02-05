@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  margin:0;
 }
 #fly-in-menu ul li{
   color: #333;
