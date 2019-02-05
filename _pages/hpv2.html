@@ -7,7 +7,7 @@ permalink: /hpv2/
 	<div class="navbar-collapse" id="navbarText">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link slideMenu"><i class="fas fa-bars"></i> Menu</a>
+				<a class="nav-link js-toggle-left-slidebar"><i class="fas fa-bars"></i> Menu</a>
 			</li>
 		</ul>
 		<span class="navbar-text">
@@ -16,8 +16,8 @@ permalink: /hpv2/
 	</div>
 </nav>
 
-<div id="fly-in-menu" class="d-flex">
-	<div class="slideOut slideMenu">Close</div>
+<div id="fly-in-menu" off-canvas="slidebar-1 left reveal">
+	<div class="slideOut js-close-left-slidebar">Close</div>
 	<ul class="align-self-center">
 		<li>Order Online</li>
 		<li>About Us</li>
@@ -28,15 +28,7 @@ permalink: /hpv2/
 	</ul>
 </div>
 
-<script>
-$(function(){
-    $('.slideMenu').on('click', function(){
-        $('#fly-in-menu').toggleClass("open");
-    });
-});
-</script>
-
-<div class="container-fluid">
+<div canvas="container" class="container-fluid">
 	<div class="row full-height feature d-flex align-items-center">
 		<div class="col d-flex justify-content-center">
 			<div class="hp-pages">
