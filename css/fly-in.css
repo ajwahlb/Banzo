@@ -5,11 +5,19 @@
 #insta-menu{
   background-color: #ffd600;
 }
-#fly-in-menu .slideOut,
-#insta-menu .slideOut{
+#fly-in-menu .slideOut{
   position: absolute;
   top: 0;
   right: 0;
+  padding: 10px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+#insta-menu .slideOut{
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 10px;
   font-size: 3rem;
   cursor: pointer;
