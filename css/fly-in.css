@@ -1,13 +1,5 @@
 #fly-in-menu{
-  width: 300px;
-  position: fixed;
-  z-index: 10;
-  height: 100%;
-  left: -305px;
   background-color: #ffd600;
-}
-#fly-in-menu.open{
-  left: 0;
 }
 #fly-in-menu .slideOut{
   position: absolute;
