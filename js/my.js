@@ -21,12 +21,18 @@ $(window).scroll(function(){
     }
 });
 
-$( 'a[href^="#"]' ).on( 'click', function( event ) {
-  event.preventDefault();
+$("#fly-in-menu a").click(function() {
+    $('[canvas="container"]').animate({
+        scrollTop: $("#elementtoScrollToID").offset().top
+    }, 2000);
+});
 
-  var target = $( this ).attr( 'href' );
-
-  $( '[canvas="container"]' ).animate( {
-    scrollTop: target.offset().top;
-  }, 1000 );
-} );
+// $( 'a[href^="#"]' ).on( 'click', function( event ) {
+//   event.preventDefault();
+//
+//   var target = $( this ).attr( 'href' );
+//
+//   $( '[canvas="container"]' ).animate( {
+//     scrollTop: target.offset().top;
+//   }, 1000 );
+// } );
