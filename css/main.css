@@ -60,9 +60,7 @@ html, body{ height: 100vh; }
 .hp-pages li:hover ~ li{
     opacity: 1;
 }
-.blurp{
-    background: #ccff7f url(/images/twitter-background_01.jpg) repeat-x top center/cover;
-}
+
 .feature::before,
 .banzo-feature::before,
 .carts-feature::before {
@@ -118,10 +116,8 @@ h2.title.menu{
         padding: 7vw 10px;
     }
 }
-#menu{
-  /* background-image: url(/images/banzo-2.jpg); */
-  background-size: cover;
-  background-attachment: fixed;
+.blurp{
+    background: #ccff7f url(/images/twitter-background_01.jpg) repeat top center;
 }
 label {
     margin-bottom: .2rem;
