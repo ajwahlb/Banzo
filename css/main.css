@@ -141,7 +141,9 @@ h2.title.menu{
     }
 }
 .blurp{
-    background: #ccff7f url(/images/twitter-background_01.jpg) repeat top center;
+    background-image: url(/images/foodcart-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 label {
     margin-bottom: .2rem;
