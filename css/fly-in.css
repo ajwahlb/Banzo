@@ -1,3 +1,6 @@
+[class*=js-] {
+    cursor: pointer;
+}
 #fly-in-menu{
   background-color: #ffd600;
 }
