@@ -27,6 +27,9 @@
   padding: 10px 0 10px 30px;
   font-size: 20px;
 }
+#fly-in-menu ul li:hover {
+  background-color: #000;
+}
 #insta-menu .slideOut{
   position: absolute;
   top: 0;
