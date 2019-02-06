@@ -58,11 +58,7 @@ $(window).scroll(function(){
  *
  */
 
-EPPZScrollTo.scrollVerticalToElementById('about', 60);
-EPPZScrollTo.scrollVerticalToElementById('contact', 60);
-EPPZScrollTo.scrollVerticalToElementById('menu', 60);
-EPPZScrollTo.scrollVerticalToElementById('catering', 60);
-EPPZScrollTo.scrollVerticalToElementById('map', 60);
+
 var EPPZScrollTo =
 {
 
