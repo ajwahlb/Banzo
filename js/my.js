@@ -21,6 +21,31 @@ $(window).scroll(function(){
     }
 });
 
+// left and right slide in doodads
+( function ( $ ) {
+	// Initialize Slidebars
+	var controller = new slidebars();
+	controller.init();
+	// Toggle Slidebars
+	 $( '.toggle-slidebar-1' ).on( 'click', function ( event ) {
+		 // Stop default action and bubbling
+		 event.stopPropagation();
+		 event.preventDefault();
+
+		 // Toggle the Slidebar with id 'slidebar-1'
+		 controller.toggle( 'slidebar-1' );
+	 } );
+	// Toggle Slidebars
+	 $( '.toggle-slidebar-2' ).on( 'click', function ( event ) {
+		 // Stop default action and bubbling
+		 event.stopPropagation();
+		 event.preventDefault();
+
+		 // Toggle the Slidebar with id 'slidebar-2'
+		 controller.toggle( 'slidebar-2' );
+	 } );
+} ) ( jQuery );
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -42,19 +67,7 @@ $('a[href*="#"]')
         event.preventDefault();
         $('[canvas="container"]').animate({
           scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
+        }, 1000, function()
     }
   });
 
