@@ -12,6 +12,9 @@
   flex-direction: column;
   justify-content: space-between;
 }
+#fly-in-menu .left-container a{
+  color: #ffd600;
+}
 #fly-in-menu .contact{
   padding: 10px 10px 10px 40px;
 }
@@ -20,7 +23,10 @@
   font-size: 3rem;
   cursor: pointer;
 }
-
+#fly-in-menu ul li {
+  padding: 10px 0 10px 30px;
+  font-size: 20px;
+}
 #insta-menu .slideOut{
   position: absolute;
   top: 0;
@@ -32,6 +38,7 @@
 #fly-in-menu ul{
   list-style: none;
   margin:0;
+  padding: 0;
 }
 
 #insta-menu ul{
