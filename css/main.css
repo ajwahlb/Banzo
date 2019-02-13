@@ -82,13 +82,13 @@ html, body{ height: 100vh; }
   background-color: #ccff7f;
   border: none;
   border-radius: 50%;
-  box-shadow: 0 16px #99c64b;
-  transition: 3s;
+  box-shadow: 0 16px #82aa3d;
+  transition: .3s;
 }
 #orderNow:active {
-  box-shadow: 0 8px #666;
+  box-shadow: 0 8px #000;
   transform: translateY(8px);
-  transition: 3s;
+  transition: .3s;
 }
 #twitter{
   padding: 50px;
