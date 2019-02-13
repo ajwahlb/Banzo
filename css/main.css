@@ -68,6 +68,12 @@ html, body{ height: 100vh; }
   background-attachment: fixed;
   height: 40vh;
 }
+.row.oops-lax-5{
+  background-image: url(/images/foodcart-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
 #twitter{
   padding: 50px;
   background: url(/images/twitter-background_01.jpg) repeat top center;
