@@ -68,6 +68,17 @@ html, body{ height: 100vh; }
   background-attachment: fixed;
   height: 40vh;
 }
+#orderNow{
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: #ffcb00;
+  right: 30px;
+  bottom: 30px;
+  height: 65px;
+  width: 65px;
+  box-shadow: 0 2px 5px 8px rgba(0, 0, 0, .4);
+}
 #twitter{
   padding: 50px;
   background: url(/images/twitter-background_01.jpg) repeat top center;
