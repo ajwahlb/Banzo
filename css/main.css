@@ -74,6 +74,12 @@ html, body{ height: 100vh; }
   background-attachment: fixed;
   height: 40vh;
 }
+.row.oops-lax-6{
+  background-image: url(/images/banzo-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
 button.Order {
   padding: 25px;
   line-height:1;
