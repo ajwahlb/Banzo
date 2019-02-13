@@ -17,6 +17,8 @@
 }
 #fly-in-menu .contact{
   padding: 10px 10px 10px 40px;
+  background-color: #000;
+  font-size: 18px;
 }
 #fly-in-menu .slideOut{
   padding: 10px;

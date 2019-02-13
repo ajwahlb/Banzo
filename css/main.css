@@ -80,25 +80,15 @@ html, body{ height: 100vh; }
   background-attachment: fixed;
   height: 40vh;
 }
-button.Order {
-  padding: 25px;
-  line-height:1;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #333;
-  background-color: #ccff7f;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 16px #99c64b;
-  transition:.1s;
+.btn-primary:hover {
+  color: #000;
+  background-color: #a1e33e;
+  border-color: #a1e33e;
 }
-
-button.Order:active {
-  box-shadow: 0 3px #99c64b;
-  transform: translateY(13px);
-  transition:.1s;
+.btn-primary {
+    color: #000;
+    background-color: #ccff7f;
+    border-color: #ccff7f;
 }
 #twitter{
   padding: 50px;
