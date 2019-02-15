@@ -94,6 +94,12 @@ html, body{ height: 100vh; }
   padding: 50px;
   background: url(/images/twitter-background_01.jpg) repeat top center;
 }
+#contact .restaurant{
+  background-color:orange;
+}
+#contact .carts{
+  background-color:pink;
+}
 .fab {
   margin: 0 10px;
   font-size: 25px;
