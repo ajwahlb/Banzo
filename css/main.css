@@ -108,6 +108,14 @@ html, body{ height: 100vh; }
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
+@media(max-width: 767px) and (min-width: 1px){
+    #contact .restaurant,
+    #contact .carts{
+      -webkit-filter: unset; /* Safari 6.0 - 9.0 */
+      filter: unset;
+    }
+}
+
 .fab {
   margin: 0 10px;
   font-size: 25px;
