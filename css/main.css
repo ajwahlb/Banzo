@@ -4,15 +4,7 @@
 @import "fly-in.css";
 
 html, body{ height: 100vh; }
-.parallax-window{
-    min-height: 50vw;
-    background: transparent;
-}
-@media(max-width: 767px) and (min-width: 1px){
-    .parallax-window{
-        min-height: 65vh;
-    }
-}
+
 .full-height {
     background-position: center center;
     height: 100vh;
@@ -188,7 +180,7 @@ h2.title.menu{
     }
 }
 .blurp{
-    background-image: url(/images/banzo-3.jpg);
+    background-image: url(/images/shuk-2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
