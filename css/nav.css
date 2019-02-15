@@ -88,6 +88,17 @@ nav.navbar-hp.hpv2 {
     box-shadow: 0 0 16px 4px rgba(0, 0, 0, .3);
     width: 100%;
 }
+nav.navbar-hp.hpv2 .navbar-nav{
+  flex-direction: row;
+}
 .navbar-hp .navbar-collapse{
   display: flex;
+}
+@media (max-width:550px){
+  button.btn-primary.btn.blitz {
+    position: absolute;
+    top: 90px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.3);
+    left: 0px;
+  }
 }
