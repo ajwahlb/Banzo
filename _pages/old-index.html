@@ -1,0 +1,96 @@
+---
+layout: homepage
+title: "Home"
+permalink: /
+---
+<nav class="navbar navbar-expand-lg navbar-hp">
+	<div class="navbar-collapse" id="navbarText">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="/banzo/">Restaurant</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/food-carts/">Food Carts</a>
+			</li>
+		</ul>
+		<span class="navbar-text">
+			Open 7 days 11am - 9pm | <i class="fas fa-phone"></i> <tel>(608) 441-2002</tel>
+		</span>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row full-height feature d-flex align-items-center">
+		<div class="col d-flex justify-content-center">
+			<div class="hp-pages">
+				<li>
+					<a href="https://www.toasttab.com/banzo-sherman-ave/v2/online-order#!/" target="_blank"><img src="/images/order-online.png" width="100%" style="max-width: 210px;"></a>
+				</li>
+			</div>
+		</div>
+
+		<a class="feature-arrow-down scroll" href="#twitter">
+			<i class="fas fa-arrow-circle-down"></i>
+		</a>
+	</div>
+
+	<div id="twitter" class="row d-flex justify-content-center">
+		<div class="col-6 white">
+			<div class="text text-center">
+				<h2 class="title">Voted Madison's favorite Mediterranean / MiddleEastern restaurant<br><br>
+
+				<a href="https://www.toasttab.com/banzo-sherman-ave/v2/online-order#!/" target="_blank">
+					<button type="button" class="btn btn-dark">ORDER ONLINE</button>
+				</a></h2>
+				<h2 class="title">For Event Catering:<br><br>
+				<a href="#menu" class="scroll hp-cater">
+					<button type="button" class="btn btn-dark">Click Here!</button>
+				</a></h2>
+			</div>
+		</div>
+	</div>
+
+	<div id="menu" class="row justify-content-center collapse">
+		<div class="col-md-8">
+			<h2 class="title">Event Catering <a href="/pdf/catering.pdf" target="_blank"><button type="button" class="btn btn-dark">CATERING MENU.PDF</button></a></h2>
+			<p>Tell us about your event! We'll take care of the rest.</p>
+			<p>*No requests are confirmed until approval is received from our catering team. Please allow up to 2 business days for a response from our catering team. DO NOT submit duplicate requests via email or phone. If your event requires immediate confirmation, please skip this form and call (608) 441-2002. Thank you!</p>
+
+			<div class="row">
+				<div class="col-md-8">
+					<form role="form" action="https://formspree.io/catering.banzo@gmail.com" method="POST">
+						<input type="hidden" name="recipient" value="catering.banzo#gmail.com">
+						<div class="form-group">
+							<label for="inputName">Your Name</label>
+							<input type="text" name="name" class="form-control" id="inputName">
+						</div>
+						<div class="form-group">
+							<label for="inputPhone">Phone Number</label>
+							<input type="tel" name="phone-number" class="form-control" id="inputPhone">
+						</div>
+						<div class="form-group">
+							<label for="inputDate">Event Date</label>
+		    			<input type="text" name="date" class="form-control" id="inputDate">
+						</div>
+						<div class="form-group">
+							<label for="inputTime">Event time</label>
+							<input type="text" name="time" class="form-control" id="inputTime">
+						</div>
+						<div class="form-group">
+							<label for="inputGuests">Number of guests</label>
+							<input type="text" name="guest-number" class="form-control" id="inputGuests">
+						</div>
+						<div class="form-group">
+							<label for="inputEmail">Your email</label>
+							<input type="email" name="email" class="form-control" id="inputEmail">
+						</div>
+						<div class="form-group">
+							<label for="contact-message">Additional information</label>
+							<textarea type="text" name="aditional-info" class="form-control" id="contact-message" rows="5"></textarea>
+						</div>
+						<button type="submit" value="send" name="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
