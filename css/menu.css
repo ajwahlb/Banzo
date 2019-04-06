@@ -45,3 +45,7 @@ vegan {
   font-weight: normal;
   line-height: 1;
 }
+/* catering menu */
+.banzo-catering{
+  display: none;
+}

@@ -6,7 +6,7 @@ $('.fly-in').click(function(){
 });
 
 $('.hp-cater').click(function(){
-	$('.collapse').slideToggle().toggleClass('open d-flex');
+	$('.banzo-catering').slideToggle();
 });
 
 var topofDiv = $(".full-height").offset().top; //gets offset of header
