@@ -49,3 +49,8 @@ vegan {
 .banzo-catering{
   display: none;
 }
+.cater-title {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
