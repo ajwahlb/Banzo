@@ -27,10 +27,10 @@
 	color:#000;
 }
 .menu-ooo{font-size: 12px; margin-bottom: 0;}
-.menu-title{font-size:18px; font-weight: bold; margin-bottom: 8px;color: #ffcc00; line-height: 1.2;}
+.menu-title{font-size:18px; font-weight: bold; margin-bottom: 8px; color: #ffcc00; line-height: 1.2;}
 .menu-item{ line-height:.8; margin:20px 0; border-left: 1px solid #fff; padding-left: 10px;}
 .menu-descript{ font-size:16px; line-height:1.2;}
-
+p.subtext{color: #ffcc00; font-size: 12px;}
 .menu-ooo vegan{
   line-height: 1.5;
 }
