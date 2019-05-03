@@ -4,6 +4,7 @@
 @import "fly-in.css";
 
 html, body{ height: 100vh; }
+a{color:#006ADB;}
 p{line-height: 1.2;}
 .full-height {
     background-position: center center;
@@ -119,6 +120,9 @@ p{line-height: 1.2;}
 .fab {
   margin: 0 10px;
   font-size: 25px;
+}
+.hp-pages ul{
+  padding: 0;
 }
 .hp-pages li{
     list-style: none;
