@@ -15,6 +15,9 @@ p{line-height: 1.2;}
     overflow: hidden;
     display: block;
 }
+.covid19 {
+    margin-top: 84px;
+}
 @media(min-width: 768px){
     .feature{
         background-image:url(/images/big-banzo-3.jpg);

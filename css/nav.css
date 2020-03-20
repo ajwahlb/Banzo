@@ -101,4 +101,7 @@ nav.navbar-hp.hpv2 .navbar-nav{
     box-shadow: 0 2px 12px rgba(0,0,0,.3);
     left: 0px;
   }
+  .covid19 {
+      padding-top: 40px;
+  }
 }
