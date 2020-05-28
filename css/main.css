@@ -91,6 +91,17 @@ p{line-height: 1.2;}
     background-color: #ccff7f;
     border-color: #ccff7f;
 }
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+  background-color: #87d217;
+  border-color: #87d217;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: underline;
+    background-color: #e4e4e4;
+}
 #twitter{
   padding: 50px;
   background: url(/images/twitter-background_01.jpg) repeat top center;
