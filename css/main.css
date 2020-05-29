@@ -105,6 +105,17 @@ p{line-height: 1.2;}
     text-decoration: underline;
     background-color: #e4e4e4;
 }
+/* homepage hover images */
+.hover-img,
+.hp-restaurant:hover .default-img,
+.hp-cart:hover .default-img {
+  display: none;
+}
+.hp-restaurant:hover .hover-img,
+.hp-cart:hover .hover-img {
+  display: inline-block;
+}
+
 #twitter{
   padding: 50px;
   background: url(/images/twitter-background_01.jpg) repeat top center;
