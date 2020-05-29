@@ -5,6 +5,9 @@
 
 html, body{ height: 100vh; }
 a{color:#006ADB;}
+a.order, a.order:hover{
+  color: #fff;
+}
 p{line-height: 1.2;}
 .full-height {
     background-position: center center;
@@ -141,6 +144,8 @@ p{line-height: 1.2;}
 .hp-pages li{
     list-style: none;
     display: table-cell;
+    max-width: 210px;
+    color: #fff;
     opacity:1;
     -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
