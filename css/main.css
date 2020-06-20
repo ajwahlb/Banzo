@@ -241,7 +241,7 @@ label {
     padding: 0 2vw;
 }
 .pad6vw{
-    padding: 6vw;
+    padding: 6vw 0;
 }
 .form-row{
     margin-bottom: 10px;
