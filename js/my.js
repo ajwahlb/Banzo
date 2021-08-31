@@ -5,10 +5,6 @@ $('.fly-in').click(function(){
 	$('.nav-bg').toggleClass('show');
 });
 
-$('.hp-cater').click(function(){
-	$('.banzo-catering').slideToggle();
-});
-
 var topofDiv = $(".full-height").offset().top; //gets offset of header
 var height = $(".full-height").outerHeight(); //gets height of header
 
