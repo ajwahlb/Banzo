@@ -6,7 +6,6 @@ $('.fly-in').click(function(){
 });
 
 
- $( '.toggle-slidebar-1' ).on( 'click', function ( event ) {
-	 controller.toggle( 'slidebar-1' );
+ $( '.toggle-slidebar-1' ).on( 'click', function () {
+	 $( '.slidebar-1' ).toggle();
  } );
-	
