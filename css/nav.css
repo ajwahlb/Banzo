@@ -79,14 +79,15 @@
 
 /* new hp nav */
 nav.navbar-hp.hpv2 {
-    background-color: #fff;
-    position: fixed;
-    color: #333;
-    top: 0;
-    z-index: 2;
-    font-size: 1.5rem;
-    box-shadow: 0 0 16px 4px rgba(0, 0, 0, .3);
-    width: 100%;
+  position: fixed;
+  color: #333;
+  top: 0;
+  z-index: 2;
+  font-size: 1.5rem;
+  box-shadow: 0 0 16px 4px rgba(0, 0, 0, .3);
+  width: 100%;
+  background: #fff url(/images/banzo-header-logo.png) no-repeat center center;
+  padding: 15px;
 }
 nav.navbar-hp.hpv2 .navbar-nav{
   flex-direction: row;
