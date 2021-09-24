@@ -18,6 +18,10 @@ p{line-height: 1.2;}
     overflow: hidden;
     display: block;
 }
+.delivery,
+.pickup{
+  display: none;
+}
 .covid19 {
     margin-top: 84px;
 }
