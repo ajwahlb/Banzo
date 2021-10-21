@@ -18,6 +18,12 @@ p{line-height: 1.2;}
     overflow: hidden;
     display: block;
 }
+.bg-medium-light{
+  background-color: #e9eef3;
+}
+.bg-dark-light{
+  background-color: #dae1e9;
+}
 .delivery,
 .pickup{
   display: none;
