@@ -18,6 +18,14 @@ p{line-height: 1.2;}
     overflow: hidden;
     display: block;
 }
+p.hours {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 250px;
+  border-bottom: 1px dotted #ccc;
+}
 .bg-medium-light{
   background-color: #e9eef3;
 }
